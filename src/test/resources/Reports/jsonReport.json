@@ -1,0 +1,296 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 2693100,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "The user should be in facebook page",
+            "match": {
+              "location": "SigninSteps.the_user_should_be_in_facebook_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-08-26T07:02:34.522Z",
+        "before": [
+          {
+            "result": {
+              "duration": 6405607700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksClass.beforeScenario()"
+            }
+          }
+        ],
+        "line": 7,
+        "name": "To validate login functionality with invalid data",
+        "description": "",
+        "id": "to-validate-the-login-functionality-of-facebook-app;to-validate-login-functionality-with-invalid-data",
+        "after": [
+          {
+            "result": {
+              "duration": 938508000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksClass.afterScenario(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 298667400,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "The user has to fill username and password",
+            "match": {
+              "location": "SigninSteps.the_user_has_to_fill_username_and_password()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 114456700,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Click the login button",
+            "match": {
+              "location": "SigninSteps.click_the_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1435200,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user should be in invalid page",
+            "match": {
+              "location": "SigninSteps.user_should_be_in_invalid_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@sanity"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 877800,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "The user should be in facebook page",
+            "match": {
+              "location": "SigninSteps.the_user_should_be_in_facebook_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-08-26T07:02:42.386Z",
+        "before": [
+          {
+            "result": {
+              "duration": 3666055400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksClass.beforeScenario()"
+            }
+          }
+        ],
+        "line": 13,
+        "name": "To validate the registration functionality",
+        "description": "",
+        "id": "to-validate-the-login-functionality-of-facebook-app;to-validate-the-registration-functionality",
+        "after": [
+          {
+            "result": {
+              "duration": 895372800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksClass.afterScenario(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1113070500,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "The user has to fill firstname and lastname",
+            "match": {
+              "location": "SigninSteps.the_user_has_to_fill_firstname_and_lastname()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 175149500,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "The user should click the signup button",
+            "match": {
+              "location": "SigninSteps.the_user_should_click_the_signup_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 847700,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "The user successfully registered",
+            "match": {
+              "location": "SigninSteps.the_user_successfully_registered()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 782100,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "The user should be in facebook page",
+            "match": {
+              "location": "SigninSteps.the_user_should_be_in_facebook_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-08-26T07:02:48.246Z",
+        "before": [
+          {
+            "result": {
+              "duration": 3799561100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksClass.beforeScenario()"
+            }
+          }
+        ],
+        "line": 19,
+        "name": "To validate login functionality1 with invalid data",
+        "description": "",
+        "id": "to-validate-the-login-functionality-of-facebook-app;to-validate-login-functionality1-with-invalid-data",
+        "after": [
+          {
+            "result": {
+              "duration": 854002900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksClass.afterScenario(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 412664000,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "The user has to fill username \"vijay\" and password \"1234\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"vijay\"",
+                  "offset": 30
+                },
+                {
+                  "val": "\"1234\"",
+                  "offset": 51
+                }
+              ],
+              "location": "SigninSteps.the_user_has_to_fill_username_and_password(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1567500,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "user should be in invalid page again",
+            "match": {
+              "location": "SigninSteps.user_should_be_in_invalid_page_again()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@retest"
+          }
+        ]
+      }
+    ],
+    "name": "To validate the login functionality of facebook app",
+    "description": "",
+    "id": "to-validate-the-login-functionality-of-facebook-app",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Features/login.feature",
+    "tags": []
+  }
+]
